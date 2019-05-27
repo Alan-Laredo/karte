@@ -2,7 +2,7 @@ import React from 'react'
 import Copyright from './Copyright';
 import Section from './Section';
 
-import logo from '../../img/logo1.png'
+import logo from '../../img/logo.png'
 import './Footer.css'
 
 export default function Footer() {
@@ -15,10 +15,9 @@ export default function Footer() {
     return (
         <footer className="Footer">
             <div className="Footer above">
-                <Section className="Footer above logo" title={"[logo]"} logo={logo}>
+                <Section className="Footer above logo" logo={logo}>
                     <p style={{ fontSize: '20px' }}>
-                        Tu buscador de clínicas y especialistas en salud dentro del estado deColima,
-                        tenemos toda la información necesaria para que siempre esten a la mano.
+                        La más fina colección de Participaciones Sociales para tus eventos.
                     </p>
                 </Section>
                 <Section className="Footer above social" title="social"></Section>
