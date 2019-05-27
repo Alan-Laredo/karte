@@ -3,9 +3,9 @@ import './Section.css'
 
 const Section = ({ title, children, items, logo, ...props }) => {
     const itemList = items ?
-        items.map((item) => {
+        items.map((item, key) => {
             console.log(item);
-            return (<a href={item.href} key={item.id}>{item.name}</a>)
+            return (<a href={item.href} key={key}>{item.name}</a>)
         }) :
         console.log(items)
     return (

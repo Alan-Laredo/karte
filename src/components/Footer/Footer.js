@@ -6,11 +6,15 @@ import logo from '../../img/logo.png'
 import './Footer.css'
 
 export default function Footer() {
-    const items = [
-        { id: 1, name: 'Inicio', href: '#' },
-        { id: 2, name: 'Revista', href: '#' },
-        { id: 3, name: 'Blog', href: '#' },
-        { id: 4, name: 'Contacto', href: '#' },
+    const menu = [
+        { name: 'Inicio', href: '#' },
+        { name: 'Blog', href: '#' },
+        { name: 'Contacto', href: '#' },
+    ]
+    const social = [
+        { name: 'facebook', href: '#' },
+        { name: 'pinterest', href: '#' },
+        { name: '', href: '#' },
     ]
     return (
         <footer className="Footer">
@@ -19,11 +23,11 @@ export default function Footer() {
                     <p style={{ fontSize: '20px' }}>
                         La más fina colección de Participaciones Sociales para tus eventos:
                         <br />
-                        Bodas, Bautisos, XV Años, Eventos Sociales y Empresariales
+                        Bodas, Bautisos, Baby Shower, XV Años, Eventos Sociales y Empresariales
                     </p>
                 </Section>
-                <Section className="Footer above social" title="social"></Section>
-                <Section className="Footer above menu" title="menú" items={items}></Section>
+                <Section className="Footer above social" title="social" items={social}></Section>
+                <Section className="Footer above menu" title="menú" items={menu}></Section>
             </div>
             <div className="Footer below"><Copyright></Copyright></div>
         </footer>

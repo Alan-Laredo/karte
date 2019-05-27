@@ -1,14 +1,20 @@
-import React from 'react'
-import logo from '../../img/logo1.png'
+import React, {useState} from 'react'
 import './Header.css'
 
-export default function Header({ handleSubmit }) {
+export default function Header(props) {
+    const [search, setSearch] = useState('')
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        props.search(search)
+    }
     return (
         <header className="header">
             <p className="intro-text"></p>
-            <form className="form">
-                <input placeholder="Introduce el tipo de invitación" />
-                <button onClick={e => handleSubmit}>Buscar</button>
+            <form className="form" onSubmit={e => handleSubmit(e)}>
+                <input
+                onChange={e => setSearch(e.target.value)}
+                placeholder="Introduce el tipo de invitación" />
+                <button>Buscar</button>
             </form>
         </header>
     )

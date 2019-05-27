@@ -1,0 +1,20 @@
+[
+    {
+        "uri": "inv1",
+        "title": "inv",
+        "image": "inv1.png",
+        "tags": [
+            "XV"
+        ],
+        "active": 1
+    },
+    {
+        "uri": "inv1",
+        "title": "inv",
+        "image": "inv1.png",
+        "tags": [
+            "XV"
+        ],
+        "active": 1
+    }
+]
