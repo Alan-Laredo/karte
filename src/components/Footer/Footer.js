@@ -17,7 +17,9 @@ export default function Footer() {
             <div className="Footer above">
                 <Section className="Footer above logo" logo={logo}>
                     <p style={{ fontSize: '20px' }}>
-                        La más fina colección de Participaciones Sociales para tus eventos.
+                        La más fina colección de Participaciones Sociales para tus eventos:
+                        <br />
+                        Bodas, Bautisos, XV Años, Eventos Sociales y Empresariales
                     </p>
                 </Section>
                 <Section className="Footer above social" title="social"></Section>
