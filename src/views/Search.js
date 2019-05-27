@@ -4,9 +4,18 @@ export class Search extends Component {
     state = {
         invitaciones: [
             {
+                uri: "bs",
+                title: "bs",
+                image: require("../img/inv1.png"),
+                tags: [
+                    "bs"
+                ],
+                active: 1
+            },
+            {
                 uri: "boda",
                 title: "boda",
-                image: "../img/inv1.png",
+                image: require("../img/inv2.png"),
                 tags: [
                     "boda",
                     "elegante",
@@ -14,18 +23,9 @@ export class Search extends Component {
                 active: 1
             },
             {
-                uri: "bs",
-                title: "bs",
-                image: "../img/inv2.png",
-                tags: [
-                    "bs"
-                ],
-                active: 1
-            },
-            {
                 uri: "xv",
                 title: "xv",
-                image: "../img/inv3.png",
+                image: require("../img/inv3.png"),
                 tags: [
                     "XV"
                 ],
@@ -43,7 +43,7 @@ export class Search extends Component {
                     <div key={key}>
                         <p>{inv.title}</p>
                         <img src={inv.image} alt={inv.title} />
-                        <div>tags: {inv.tags.map(tag => <p>{tag}</p>)}</div>
+                        <div>tags: {inv.tags.map((tag,i) => <p key={i}>{tag}</p>)}</div>
                     </div>
                 ))}
             </div>
