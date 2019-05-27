@@ -4,6 +4,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     font-family: 'Raleway';
+    font-size: 14px;
     text-align: center;
     color: white;
 }
@@ -14,10 +15,12 @@
 
 .header .intro-title {
     margin: 0 auto;
-    width: 590px;
+    max-width: 590px;
+    width: 100%;
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
+    line-height: 1.1;
 }
 
 .header .intro-text {
@@ -27,7 +30,7 @@
 .header .form {
     display: flex;
     height: 34px;
-    width: 585px;
+    max-width: 585px;
     margin: 0 auto;
     vertical-align: middle;
     border-collapse: separate;
@@ -67,3 +70,13 @@
     flex-shrink: 1;
     
 }
+
+@media (max-width: 7000px) {
+    .header .intro-title {
+        width: 90%;
+    }
+
+    .header .form {
+        width: 90%;
+    }
+} 

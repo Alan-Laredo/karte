@@ -6,6 +6,7 @@
 }
 
 .Footer.above {
+    margin: 0 auto;
     padding: 50px 0;
     flex-direction: row;
     justify-content: space-between;
@@ -22,3 +23,15 @@
 .Footer.above.menu {
     flex-direction: column;
 }
+
+@media (max-width: 990px) {
+    .Footer.above {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 7000px) {
+    .Footer.above {
+        max-width: 90%;
+    }
+} 
