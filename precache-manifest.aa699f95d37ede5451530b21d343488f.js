@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89351aa7f60887b99a4308d7466b94c2",
+    "revision": "e6c9ac48cad072f4deff27b25a13810a",
     "url": "/karte/index.html"
   },
   {
-    "revision": "0e0489a0ea9fbffede3c",
+    "revision": "96a91298a9ee78145626",
     "url": "/karte/static/css/main.368c9d56.chunk.css"
   },
   {
-    "revision": "baa3fb71363df8e53cf5",
-    "url": "/karte/static/js/2.1835c9c3.chunk.js"
+    "revision": "7860e6b7f6ab57bf3689",
+    "url": "/karte/static/js/2.88bd6d82.chunk.js"
   },
   {
-    "revision": "0e0489a0ea9fbffede3c",
-    "url": "/karte/static/js/main.8e0d0f0d.chunk.js"
+    "revision": "96a91298a9ee78145626",
+    "url": "/karte/static/js/main.d0bf60ce.chunk.js"
   },
   {
     "revision": "1837386fbc0c4c9167ff",
@@ -26,9 +26,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b82124fe1fb5746c861e7f0b63c84c27",
     "url": "/karte/static/media/logo.b82124fe.png"
-  },
-  {
-    "revision": "92a5dd44fcc8477747dbd1f48c7b007c",
-    "url": "/karte/static/media/logo1.92a5dd44.png"
   }
 ]);
