@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/karte/static/css/main.d34c3406.chunk.css",
+    "main.css": "/karte/static/css/main.a2d56084.chunk.css",
     "main.js": "/karte/static/js/main.6225060e.chunk.js",
     "main.js.map": "/karte/static/js/main.6225060e.chunk.js.map",
     "runtime~main.js": "/karte/static/js/runtime~main.486a739a.js",
@@ -8,9 +8,9 @@
     "static/js/2.ffc71a18.chunk.js": "/karte/static/js/2.ffc71a18.chunk.js",
     "static/js/2.ffc71a18.chunk.js.map": "/karte/static/js/2.ffc71a18.chunk.js.map",
     "index.html": "/karte/index.html",
-    "precache-manifest.6220e218029b0c2ff81912598aad8a1a.js": "/karte/precache-manifest.6220e218029b0c2ff81912598aad8a1a.js",
+    "precache-manifest.ab2b28b7a56776bcc8f4557c3921b071.js": "/karte/precache-manifest.ab2b28b7a56776bcc8f4557c3921b071.js",
     "service-worker.js": "/karte/service-worker.js",
-    "static/css/main.d34c3406.chunk.css.map": "/karte/static/css/main.d34c3406.chunk.css.map",
+    "static/css/main.a2d56084.chunk.css.map": "/karte/static/css/main.a2d56084.chunk.css.map",
     "static/media/Header.css": "/karte/static/media/fondo.e5dead1e.png"
   }
 }
