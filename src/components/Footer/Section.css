@@ -1,0 +1,35 @@
+.Section {
+    padding: 0 15px;
+    margin-bottom: 50px;
+    font-family: 'Raleway';
+    text-align: center;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.Section .title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Section .content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.Section .content a {
+    color: #18BC9C;
+    outline: none;
+    text-decoration: none;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.Section .content a:hover {
+    text-decoration: initial;
+}
