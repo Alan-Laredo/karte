@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/karte/static/css/main.7e3d85b3.chunk.css",
-    "main.js": "/karte/static/js/main.036faca7.chunk.js",
-    "main.js.map": "/karte/static/js/main.036faca7.chunk.js.map",
+    "main.css": "/karte/static/css/main.368c9d56.chunk.css",
+    "main.js": "/karte/static/js/main.c760cef7.chunk.js",
+    "main.js.map": "/karte/static/js/main.c760cef7.chunk.js.map",
     "runtime~main.js": "/karte/static/js/runtime~main.486a739a.js",
     "runtime~main.js.map": "/karte/static/js/runtime~main.486a739a.js.map",
-    "static/js/2.74ac6cf9.chunk.js": "/karte/static/js/2.74ac6cf9.chunk.js",
-    "static/js/2.74ac6cf9.chunk.js.map": "/karte/static/js/2.74ac6cf9.chunk.js.map",
+    "static/js/2.1835c9c3.chunk.js": "/karte/static/js/2.1835c9c3.chunk.js",
+    "static/js/2.1835c9c3.chunk.js.map": "/karte/static/js/2.1835c9c3.chunk.js.map",
     "index.html": "/karte/index.html",
-    "precache-manifest.552a33d71d4260d45b36badde3ea6b7b.js": "/karte/precache-manifest.552a33d71d4260d45b36badde3ea6b7b.js",
+    "precache-manifest.f519c129fae1dccdbcf1c7b1e3a56aba.js": "/karte/precache-manifest.f519c129fae1dccdbcf1c7b1e3a56aba.js",
     "service-worker.js": "/karte/service-worker.js",
-    "static/css/main.7e3d85b3.chunk.css.map": "/karte/static/css/main.7e3d85b3.chunk.css.map",
+    "static/css/main.368c9d56.chunk.css.map": "/karte/static/css/main.368c9d56.chunk.css.map",
     "static/media/Header.css": "/karte/static/media/fondo.d507d719.png",
+    "static/media/logo.png": "/karte/static/media/logo.b82124fe.png",
     "static/media/logo1.png": "/karte/static/media/logo1.92a5dd44.png"
   }
 }

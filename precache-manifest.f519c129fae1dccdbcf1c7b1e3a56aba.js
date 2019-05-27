@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c288ee299adddfa1052bd0b301a6436f",
+    "revision": "b47297b604fa2d1e26a7630e5c7506eb",
     "url": "/karte/index.html"
   },
   {
-    "revision": "c7f7bc2d4a83f453a1f5",
-    "url": "/karte/static/css/main.7e3d85b3.chunk.css"
+    "revision": "91c9754538efc90f3cd9",
+    "url": "/karte/static/css/main.368c9d56.chunk.css"
   },
   {
-    "revision": "93a3d436f2442f32fd54",
-    "url": "/karte/static/js/2.74ac6cf9.chunk.js"
+    "revision": "baa3fb71363df8e53cf5",
+    "url": "/karte/static/js/2.1835c9c3.chunk.js"
   },
   {
-    "revision": "c7f7bc2d4a83f453a1f5",
-    "url": "/karte/static/js/main.036faca7.chunk.js"
+    "revision": "91c9754538efc90f3cd9",
+    "url": "/karte/static/js/main.c760cef7.chunk.js"
   },
   {
     "revision": "1837386fbc0c4c9167ff",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d507d71944bc8f151e2dd536af73e846",
     "url": "/karte/static/media/fondo.d507d719.png"
+  },
+  {
+    "revision": "b82124fe1fb5746c861e7f0b63c84c27",
+    "url": "/karte/static/media/logo.b82124fe.png"
   },
   {
     "revision": "92a5dd44fcc8477747dbd1f48c7b007c",
