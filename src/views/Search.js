@@ -34,18 +34,16 @@ export class Search extends Component {
         ]
     }
     render() {
-        const invs = this.state.invitaciones.filter(
-            inv => !inv.tags.indexOf(this.props.match.params.tag)
-        )
+        const invs = this.state.invitaciones.filter(({ tags }) => tags.includes('boda'))
         return (
             <div>
-                {invs.map((inv, key) => (
+                {invs.length ? invs.map((inv, key) => (
                     <div key={key}>
                         <p>{inv.title}</p>
-                        <img src={inv.image} alt={inv.title} />
+                        <img src={inv.image} alt={inv.title} width="100vw" style={{ width: '100vw' }} />
                         <div>tags: {inv.tags.map((tag,i) => <p key={i}>{tag}</p>)}</div>
                     </div>
-                ))}
+                )) : 'No hay invitaciones con ese tag'}
             </div>
         )
     }
