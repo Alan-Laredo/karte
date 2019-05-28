@@ -1,10 +1,10 @@
 import React from 'react'
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
+import { withRouter } from 'react-router-dom'
 
-export default function Home(props) {
+const Home = (props) => {
     const handleSearch = (search) => {
-        console.log(search)
         props.history.push('/tag/' + search)
     }
     return (
@@ -14,3 +14,5 @@ export default function Home(props) {
         </div>
     )
 }
+
+export default withRouter(Home)
