@@ -34,7 +34,7 @@ export class Search extends Component {
         ]
     }
     render() {
-        const invs = this.state.invitaciones.filter(({ tags }) => tags.includes('boda'))
+        const invs = this.state.invitaciones.filter(({ tags }) => tags.includes(this.props.match.params.tag))
         return (
             <div>
                 {invs.length ? invs.map((inv, key) => (
