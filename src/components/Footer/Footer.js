@@ -23,7 +23,7 @@ export default function Footer() {
                     <p style={{ fontSize: '20px' }}>
                         La más fina colección de Participaciones Sociales para tus eventos:
                         <br />
-                        Bodas, Bautisos, Baby Shower, XV Años, Eventos Sociales y Empresariales
+                        Bodas, Bautizos, Baby Shower, XV Años, Eventos Sociales y Empresariales
                     </p>
                 </Section>
                 <Section className="Footer above social" title="social" items={social}></Section>

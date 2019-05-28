@@ -4,10 +4,8 @@ import './Section.css'
 const Section = ({ title, children, items, logo, ...props }) => {
     const itemList = items ?
         items.map((item, key) => {
-            console.log(item);
             return (<a href={item.href} key={key}>{item.name}</a>)
-        }) :
-        console.log(items)
+        }) : null
     return (
         <div className="Section">
             <h3 className="title">{title ? title.toUpperCase() : (<img src={logo} alt="logo" width="300px" />)}</h3>
