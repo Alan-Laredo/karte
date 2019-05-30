@@ -33,6 +33,7 @@ export class Search extends Component {
             },
         ]
     }
+
     render() {
         const invs = this.state.invitaciones.filter(({ tags }) => tags.includes(this.props.match.params.tag))
         return (
@@ -41,7 +42,7 @@ export class Search extends Component {
                     <div key={key}>
                         <p>{inv.title}</p>
                         <img src={inv.image} alt={inv.title} width="100vw" style={{ width: '100vw' }} />
-                        <div>tags: {inv.tags.map((tag,i) => <p key={i}>{tag}</p>)}</div>
+                        <div>tags: {inv.tags.map((tag, i) => <p key={i}>{tag}</p>)}</div>
                     </div>
                 )) : 'No hay invitaciones con ese tag'}
             </div>
