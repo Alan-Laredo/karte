@@ -1,37 +1,19 @@
 import React, { Component } from 'react'
+import data from './data.json'
 
 export class Search extends Component {
     state = {
-        invitaciones: [
-            {
-                uri: "bs",
-                title: "bs",
-                image: require("../img/inv1.png"),
-                tags: [
-                    "bs"
-                ],
-                active: 1
-            },
-            {
-                uri: "boda",
-                title: "boda",
-                image: require("../img/inv2.png"),
-                tags: [
-                    "boda",
-                    "elegante",
-                ],
-                active: 1
-            },
-            {
-                uri: "xv",
-                title: "xv",
-                image: require("../img/inv3.png"),
-                tags: [
-                    "XV"
-                ],
-                active: 1
-            },
-        ]
+        invitaciones: []
+    }
+
+    componentWillMount() {
+        data.shift()
+        this.setState({
+            invitaciones: data.map((inv) => {
+                inv.image = require("../img/" + inv.image)
+                return inv
+            })
+        })
     }
 
     render() {
