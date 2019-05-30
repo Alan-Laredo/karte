@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "408440850c91db8dc6c915424a66feaa",
+    "revision": "2a7a83e16466236a3c5369a648dac21f",
     "url": "/karte/index.html"
   },
   {
-    "revision": "b497b592960a81075c5e",
-    "url": "/karte/static/css/main.52532663.chunk.css"
+    "revision": "50d389cdb0c129734d92",
+    "url": "/karte/static/css/main.a019a6a9.chunk.css"
   },
   {
-    "revision": "07807b458b0082fb1405",
-    "url": "/karte/static/js/2.db809c87.chunk.js"
+    "revision": "4428caf199672ae52a69",
+    "url": "/karte/static/js/2.6287eeae.chunk.js"
   },
   {
-    "revision": "b497b592960a81075c5e",
-    "url": "/karte/static/js/main.f8fd65b5.chunk.js"
+    "revision": "50d389cdb0c129734d92",
+    "url": "/karte/static/js/main.23ad1fbb.chunk.js"
   },
   {
     "revision": "1837386fbc0c4c9167ff",
@@ -38,5 +38,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b82124fe1fb5746c861e7f0b63c84c27",
     "url": "/karte/static/media/logo.b82124fe.png"
+  },
+  {
+    "revision": "92a5dd44fcc8477747dbd1f48c7b007c",
+    "url": "/karte/static/media/logo1.92a5dd44.png"
+  },
+  {
+    "revision": "2ad02dd88796fc1811adc94de15fee2a",
+    "url": "/karte/static/media/logo2.2ad02dd8.png"
   }
 ]);
