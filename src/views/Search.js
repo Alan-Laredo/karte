@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import data from './data.json'
 import Header from './../components/Header/Header';
 import Footer from './../components/Footer/Footer';
+import Result from './../components/Result/Result'
 
 export class Search extends Component {
     state = {
@@ -23,13 +24,9 @@ export class Search extends Component {
         return (
             <div>
                 <Header title="Resultados"></Header>
-                <h4>ESTOS SON LOS RESULTADOS QUE COINCIDEN CON TU BUSQUEDA:</h4>
-                {invs.length ? invs.map((inv, key) => (
-                    <div key={key}>
-                        <p>{inv.title}</p>
-                        <img src={inv.image} alt={inv.title} width="100vw" style={{ width: '100vw' }} />
-                        <div>tags: {inv.tags.map((tag, i) => <p key={i}>{tag}</p>)}</div>
-                    </div>
+                <h4 className="title">ESTOS SON LOS RESULTADOS QUE COINCIDEN CON TU BUSQUEDA:</h4>
+                {invs.length ? invs.map((inv, i) => (
+                    <Result inv={inv} key={i} i={i}></Result>
                 )) : 'No hay invitaciones con ese tag'}
                 <Footer/>
             </div>
