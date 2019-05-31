@@ -1,21 +1,26 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './Header.css'
+import logo from '../../img/logo1.png'
+import logoAlt from '../../img/logo2.png'
+import SearchBar from '../SearchBar/SearchBar';
 
-export default function Header(props) {
-    const [search, setSearch] = useState('')
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        props.search(search)
-    }
+const Header = ({ title }) => {
     return (
-        <header className="header">
-            <p className="intro-text"></p>
-            <form className="form" onSubmit={e => handleSubmit(e)}>
-                <input
-                onChange={e => setSearch(e.target.value)}
-                placeholder="Introduce el tipo de invitación" />
-                <button>Buscar</button>
-            </form>
-        </header>
+        <div className="header">
+            <header className="header">
+                <img src={logo} alt="logo" height="150px" />
+                <p className="intro-text">
+                    Tu buscador de clínicas y especialistas en salud dentro del estado de Colima,
+                    tenemos toda la información necesaria para que siempre esten a la mano.
+            </p>
+                <h1 className="intro-title">{title}</h1>
+            </header>
+            <div className="search-bar-container">
+                <img src={logoAlt} alt="logo" height="80px" />
+                <SearchBar></SearchBar>
+            </div>
+        </div>
     )
 }
+
+export default Header

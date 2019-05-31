@@ -1,18 +1,14 @@
 import React from 'react'
-import Header from '../components/Header/Header';
+import Hero from '../components/Hero/Hero';
 import Footer from '../components/Footer/Footer';
-import { withRouter } from 'react-router-dom'
 
-const Home = (props) => {
-    const handleSearch = (search) => {
-        props.history.push('/tag/' + search)
-    }
+const Home = () => {
     return (
         <div>
-            <Header search={handleSearch}></Header>
+            <Hero></Hero>
             <Footer></Footer>
         </div>
     )
 }
 
-export default withRouter(Home)
+export default Home
