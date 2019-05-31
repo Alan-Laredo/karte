@@ -5,7 +5,7 @@ import Section from './Section';
 import logo from '../../img/logo.png'
 import './Footer.css'
 
-export default function Footer() {
+const Footer = () => {
     const menu = [
         { name: 'Inicio', href: '#' },
         { name: 'Blog', href: '#' },
@@ -33,3 +33,5 @@ export default function Footer() {
         </footer>
     )
 }
+
+export default Footer
