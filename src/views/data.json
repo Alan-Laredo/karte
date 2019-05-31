@@ -1,24 +1,5 @@
 [
     {
-        "uri": "",
-        "city": "",
-        "title": "",
-        "description": "",
-        "image": "",
-        "coords": "",
-        "telephone": "",
-        "cellphone": "",
-        "website": "",
-        "facebook": "",
-        "twitter": "",
-        "address": "",
-        "email": "",
-        "tags": [
-            ""
-        ],
-        "active": 1
-    },
-    {
         "uri": "babyshower",
         "city": "",
         "title": "Baby Shower",
