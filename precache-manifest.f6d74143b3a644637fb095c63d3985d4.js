@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a7a83e16466236a3c5369a648dac21f",
+    "revision": "208e5661d402702889ccc9766f586091",
     "url": "/karte/index.html"
   },
   {
-    "revision": "50d389cdb0c129734d92",
-    "url": "/karte/static/css/main.a019a6a9.chunk.css"
+    "revision": "0cf235889f0804d52528",
+    "url": "/karte/static/css/main.02b17210.chunk.css"
   },
   {
-    "revision": "4428caf199672ae52a69",
-    "url": "/karte/static/js/2.6287eeae.chunk.js"
+    "revision": "9166630b6a408cb68efd",
+    "url": "/karte/static/js/2.8a95d8dc.chunk.js"
   },
   {
-    "revision": "50d389cdb0c129734d92",
-    "url": "/karte/static/js/main.23ad1fbb.chunk.js"
+    "revision": "0cf235889f0804d52528",
+    "url": "/karte/static/js/main.995163c8.chunk.js"
   },
   {
     "revision": "1837386fbc0c4c9167ff",
@@ -21,7 +21,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "d507d71944bc8f151e2dd536af73e846",
-    "url": "/karte/static/media/fondo.d507d719.png"
+    "url": "/karte/static/media/background.d507d719.png"
   },
   {
     "revision": "b7316e45cb808991c4a5d9c5f31617ce",
