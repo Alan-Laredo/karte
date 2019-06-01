@@ -12,9 +12,9 @@ const Footer = () => {
         { name: 'Contacto', href: '#' },
     ]
     const social = [
-        { name: 'facebook', href: '#' },
-        { name: 'pinterest', href: '#' },
-        { name: '', href: '#' },
+        { icon: 'facebook-f', href: '#' },
+        { icon: 'pinterest-p', href: '#' },
+        { icon: '', href: '#' },
     ]
     return (
         <footer className="Footer">
