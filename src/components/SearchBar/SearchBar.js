@@ -6,7 +6,7 @@ const SearchBar = (props) => {
     const [search, setSearch] = useState('')
     const handleSubmit = (e) => {
         e.preventDefault()
-        props.history.push('/tag/' + search)
+        props.history.push('/tag/' + search.toLowerCase())
         setSearch('')
     }
     return (

@@ -22,7 +22,7 @@
         "uri": "boda",
         "city": "",
         "title": "Boda",
-        "description": "",
+        "description": "Aqui va la descripcion",
         "image": "inv2.png",
         "coords": "",
         "telephone": "",
@@ -38,11 +38,11 @@
         "active": 1
     },
     {
-        "uri": "boda",
+        "uri": "xv",
         "city": "",
-        "title": "Boda",
-        "description": "",
-        "image": "inv2.png",
+        "title": "XV",
+        "description": "Aqui va la descripcion",
+        "image": "inv3.png",
         "coords": "",
         "telephone": "",
         "cellphone": "",
@@ -52,7 +52,7 @@
         "address": "",
         "email": "",
         "tags": [
-            "XV", "XV años"
+            "xv", "xv años", "boda"
         ],
         "active": 1
     }
