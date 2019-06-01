@@ -10,50 +10,33 @@ export class Search extends Component {
         invitaciones: []
     }
 
+    filteredData = props => data
+        .filter(({ tags }) => {
+            let realtag
+            tags.map(tag => {
+                let similar = similarText(props.match.params.tag, tag, 1)
+                if (similar >= 70) {
+                    realtag = tag
+                    return tag
+                }
+            })
+            return tags.includes(realtag)
+        })
+        .map((inv) => {
+            if (!/\/static/.test(inv.image)) {
+                inv.image = require("../img/" + inv.image)
+            }
+            return inv
+        })
+
     componentWillMount() {
         this.setState({
-            invitaciones: data
-                .filter(({ tags }) => {
-                    let realtag
-                    tags.map(tag => {
-                        let similar = similarText(this.props.match.params.tag, tag, 1)
-                        if (similar >= 70) {
-                            realtag = tag
-                            return tag
-                        }
-                    })
-                    return tags.includes(realtag)
-                })
-                .map((inv) => {
-                    if (!/\/static/.test(inv.image)) {
-                        inv.image = require("../img/" + inv.image)
-                    }
-                    return inv
-                })
+            invitaciones: this.filteredData(this.props)
         })
     }
     componentWillReceiveProps(newProps) {
-        console.log(newProps)
         this.setState({
-            invitaciones: data
-                .filter(({ tags }) => {
-                    let realtag
-                    tags.map(tag => {
-                        let similar = similarText(newProps.match.params.tag, tag, 1)
-                        if (similar >= 70) {
-                            realtag = tag
-                            return tag
-                        }
-                        return null
-                    })
-                    return tags.includes(realtag)
-                })
-                .map((inv) => {
-                    if (!/\/static/.test(inv.image)) {
-                        inv.image = require("../img/" + inv.image)
-                    }
-                    return inv
-                })
+            invitaciones: this.filteredData(newProps)
         })
     }
 
