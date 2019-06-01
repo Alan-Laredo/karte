@@ -9,7 +9,7 @@ const Result = ({ inv, history, i }) => {
     
     return (
         <div className={"result" + (i % 2 === 0 ? " prime" : "")} onClick={handleClick}>
-            <img src={inv.image} alt={inv.uri} width="100" height="80" />
+            <div className="img"><img src={inv.image} alt={inv.uri} width="100%" height="auto" /></div>
             <div className="caption">
                 <h4>{inv.title}</h4>
                 <p>

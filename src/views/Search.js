@@ -45,7 +45,7 @@ export class Search extends Component {
         return (
             <div>
                 <Header title="Resultados"></Header>
-                <h4 className="title">ESTOS SON LOS RESULTADOS QUE COINCIDEN CON TU BUSQUEDA:</h4>
+                <h4 className="title" style={{ width: '750px' }}>ESTOS SON LOS RESULTADOS QUE COINCIDEN CON TU BUSQUEDA:</h4>
                 {invs.length ? invs.map((inv, i) => (
                     <Result inv={inv} key={i} i={i}></Result>
                 )) : 'No hay invitaciones con ese tag'}

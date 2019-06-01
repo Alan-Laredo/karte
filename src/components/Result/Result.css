@@ -11,6 +11,11 @@
     flex-direction: row;
 }
 
+.result .img {
+    width: 100px;
+    margin: auto;
+}
+
 .result > * {
     padding: 0 15px;
     flex-grow: 0;
