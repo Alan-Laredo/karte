@@ -12,7 +12,9 @@ export class Search extends Component {
     componentWillMount() {
         this.setState({
             invitaciones: data.map((inv) => {
-                inv.image = require("../img/" + inv.image)
+                if (!/\/static/.test(inv.image)) {
+                    inv.image = require("../img/" + inv.image)
+                }
                 return inv
             })
         })
